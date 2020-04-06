@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1</title>
+</head>
+<body>
+<script>
+    let array1 = [4,5,7,8,1,9];
+    function findMax(array) {
+        let max = array[0];
+        for (let i=1;i<array.length;i++){
+            if (max<array[i]){
+                max = array[i];
+            }
+        }
+        return max;
+    }
+
+    alert("Giá trị lớn nhất trong mảng là : "+findMax(array1));
+</script>
+</body>
+</html>
